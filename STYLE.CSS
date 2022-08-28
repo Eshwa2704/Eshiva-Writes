@@ -1,0 +1,63 @@
+*
+{
+    box-sizing: border-box;
+    list-style: none;
+    
+}
+body
+{
+    margin:0px;
+}
+header{
+    padding: 60px;
+    background-color:yellowgreen;
+    text-align: center;
+}
+
+header h1{
+    font-size:70px;
+    color: aliceblue;
+    font-family: cursive;
+}
+nav{
+    background-color:olivedrab;
+    overflow: hidden;
+    padding: 3px;
+    font-family: cursive;
+
+}
+nav a{
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left; 
+    /*when we add float left ,we will not be able to see any thing in that case we have to add Ovberflow:hidden; in the nav */
+    font-size: 30px;
+}
+section{
+    text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+}
+section h1
+{
+    background-color: yellowgreen;
+    color: aliceblue;
+    
+    
+}
+section img
+{
+    border-radius: 360px;
+
+}
+footer
+{
+    background-color: gray;
+    display: block;
+    color: white;
+    text-decoration:none;  /*this is to remove underline from the link*/
+    padding:14px 20px;
+    float: left;
+}
